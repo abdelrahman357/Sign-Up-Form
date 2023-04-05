@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-Up From</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="visual">
+        <div class="logo">
+          <img src="imgs/odin-lined.png" alt="odin-logo" />
+          <p>ODIN</p>
+        </div>
+        <p class="copyright">
+          Photo by
+          <a href="https://unsplash.com/@haliewestphoto"> Haile West </a> on
+          <a href="https://unsplash.com/photos/25xggax4bSA">Unsplash</a>
+        </p>
+      </div>
+      <form action="">
+        <div class="text">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams.Sign up
+            now to get started.
+          </p>
+          <p>You know you want to.</p>
+        </div>
+        <div class="main">
+          <h3>Let's do this!</h3>
+          <div class="field">
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname" required />
+          </div>
+          <div class="field">
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname" required />
+          </div>
+          <div class="field">
+            <label for="user-mail">Email</label>
+            <input type="email" name="user-mail" id="user-mail" required />
+          </div>
+          <div class="field">
+            <label for="user-number">First Name</label>
+            <input type="tel" name="user-number" id="user-number" required />
+          </div>
+          <div class="field">
+            <label for="user-pwd">Password</label>
+            <input type="password" name="user-pwd" id="user-pwd" required />
+          </div>
+          <div class="field">
+            <label for="confirm-pwd">Confirm Password</label>
+            <input
+              type="password"
+              name="confirm-pwd"
+              id="confirm-pwd"
+              required
+            />
+          </div>
+        </div>
+        <div class="send">
+          <button type="submit">Create Account</button>
+          <p>Already have an account? <a href="#">Log in</a></p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
